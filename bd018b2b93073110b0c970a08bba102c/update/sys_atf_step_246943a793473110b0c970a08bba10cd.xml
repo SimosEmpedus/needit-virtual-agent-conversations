@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Expected Message: Ask again when you need to update other NeedIt records.</description>
+        <display_name>Receive  Message</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Receive  Message">b55a25624d220110fa9b4c739da9ee81</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>246943a793473110b0c970a08bba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Receive  Message</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1245000_needit_v">bd018b2b93073110b0c970a08bba102c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">bd018b2b93073110b0c970a08bba102c</sys_scope>
+        <sys_update_name>sys_atf_step_246943a793473110b0c970a08bba10cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <table/>
+        <test display_value="Update NeedIt Records 12/18/2023, 1:03:15 AM">ac698f2793473110b0c970a08bba10c9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=246943a793473110b0c970a08bba10cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>246943a793473110b0c970a08bba10cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>2c6943a793473110b0c970a08bba10ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <value>Ask again when you need to update other NeedIt records.</value>
+        <variable display_value="message">63dbe1e24d220110fa9b4c739da9ee36</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>246943a793473110b0c970a08bba10cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>686943a793473110b0c970a08bba10ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Serial Number">1bc6e13b77831110c8616cf78c5a99d8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>246943a793473110b0c970a08bba10cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>a46943a793473110b0c970a08bba10ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <value>{{step['e46943a793473110b0c970a08bba10a0'].conversation_id}}</value>
+        <variable display_value="Conversation ID">a93c29e24d220110fa9b4c739da9eeab</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=246943a793473110b0c970a08bba10cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conversation_id</field>
+        <id>246943a793473110b0c970a08bba10cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>a46943a793473110b0c970a08bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>{{step['e46943a793473110b0c970a08bba10a0'].conversation_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>246943a793473110b0c970a08bba10cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>e06943a793473110b0c970a08bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>Ask again when you need to update other NeedIt records.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>serial_number</field>
+        <id>246943a793473110b0c970a08bba10cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 23:03:30</sys_created_on>
+        <sys_id>206943a793473110b0c970a08bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 23:03:30</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>5</value>
+    </sys_element_mapping>
+</record_update>
